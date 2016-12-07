@@ -3,8 +3,6 @@
 //ハッシュ化に使用する定数
 $salt = "mwefCMEP28DjwdW3lwdS239vVS";
 
-$mysqli = new mysqli('localhost', 'root', 'Himajinmaou4274', 'hp');
-
 $status = "none";
 
 if(!empty($_POST["userid"]) && !empty($_POST["password"])){
