@@ -19,7 +19,6 @@ if(!empty($_POST["userid"]) && !empty($_POST["password"])){
     //既に存在するユーザ名だった場合INSERTに失敗する
     $status = "failed";
 }
-
 ?>
 
 <!DOCTYPE html>
